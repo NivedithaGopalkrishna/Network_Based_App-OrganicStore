@@ -18,8 +18,8 @@ To run the application go to your project directory and do the following:
     - run all the commands in 'create_db.txt'
     
 3. Open another Terminal and run the following cmds:
-      -npm install
-      -npm start
+      - npm install
+      - npm start
 
 4. Open your web browser and type "localhost:3000"
 
