@@ -1,0 +1,124 @@
+//Create Database
+use new
+
+//add Collection
+db.createCollection("ItemData");
+
+//Insert Item Data 
+db.ItemData.insert({
+	itemCode: 1,
+        itemName: "Organic Herb Gardening",
+        catalogCategory: "Organic Gardening",
+        description: "Herbs add flavour to the meal and also keeps you healthy. They are very easy to grow and growing them in an spiral fashion ensures the cultivation of different other herbs with limited space. \n Pauline uses the zipstripper to help harvest the leaves of some of the herbs and it works great. Here are few tips for the best Spiral Herb Gardening. Make sure your Mediterranean herbs and other herbs that need great drainage are grown at the top of the spiral as it has the fastest drainage and remains warm and the dry. Pauline recommends herbs such as Sage, Oregano, Basil, Lavender and Marjoram to be grown at the top of the spiral. The middle part of the spiral can have a combination of Mediterranean and medicinal Herbs. The south side of the spiral will be the warmest and sunnies. The north side will be the coolest and shadiest. Pauline recommends cultivating herbs such as Dill, Marigolds,Violas, Chives with a mix of medicinal herbs such as Rue, Self-Heal , Lemon Balm, Tobacco in the middle of the spiral. The bottom part of the spiral remains soaked in water always. You can make a small pond by adding more water. Pauline’s Spiral bottom consists of herbs such as watercress, Mints, Mexican Tarragon and Summer Savory with medicinal herbs such as Plantain, Yerba Mensa and Sweet Flag which grows best when its moist. ",
+        rating: 3,
+        imageURL: "https://www.gardeningknowhow.com/wp-content/uploads/2007/03/herb-care.jpg"
+});
+
+db.ItemData.insert({
+   itemCode: 2,
+        itemName: "Organic Fruit and Vegetable Gardening",
+        catalogCategory: "Organic Gardening",
+        description: "Its aways better to avoid chemical use and make use of nutrient-rich soil and pest-resistant plants to stay healthy. Pauline’s organic gardening tips will have you well on your way to delicious vegetables in no time. Having optimal growing conditions is very important for growing healthiest plants and for most vegetables, that means full sun (at least 6 hours of direct sun a day) is required. If you have poor soil, amend it with lots of organic matter, such as compost. Some plants, such as tomatoes, are naturally more susceptible to pest and disease problems than others. To reduce problems, look for disease-resistant varieties. Pauline would like to give you the following tips for cultivating organic fruits and veggies - Choose the right plants for your region and conditions,Prepare the soil before planting ,Plant flowers in or near the garden to attract bees and other pollinators,Make your own organic compost and mulch,Purchase seeds or starter plants from reputable sources,Plant heirloom varieties when possible,Use companion planting principles in your garden and  Use raised beds to extend the growing season.",
+        rating: 4,
+        imageURL: "https://www.coolgarden.me/wp-content/uploads/2014/09/organic-garden-2.jpg",
+});
+
+db.ItemData.insert({
+   itemCode: 3,
+        itemName: "Organic Fruit and Nut Tree Gardening",
+        catalogCategory: "Organic Gardening",
+        description: "Grocery stores know that the average consumer likes what they consider to be perfect-looking fruit, which is often what is stocked on produce shelves at the expense of flavor and nutrients, so don’t let a few spots and bumps bother you. Pauline has a variety of fruit trees in her organic Garden - mulberry , avocado , fig , goji berry , Pomegranate and apple. It is very important to  choosing the right place to plant your fruit trees . Don’t grow anything from the genus Juniperus (which includes Eastern red-cedar) near apple trees, or you risk dealing with cedar-apple rust.  Do a soil composition and pH test* so you know which nutrients are lacking and treat accordingly. Most fruit trees favor a neutral soil pH between 6.0 – 7.0. Improper soil pH can translate to nutrient deficiencies, so condition as needed if the soil is too acidic or too alkaline for your fruit trees.  Poor, lacking soil puts undue stress on fruit trees, which makes them more susceptible to problems. To check your soils ability to retain water, remove four inches of the soil and place in a one-quart jar with a lid. Fill the jar with water and screw on the lid. Shake well, then let the jar stand for 24 hours. The soil will settle into layers: good loam will have about 1.75 inch (45%) of sand on the bottom, then about 1 inch (25%) of silt, then about 1 inch (25%) of clay and about 1/4 inch (5%) of organic matter on top. Prune to remove dead/diseased branches, leaves, and twigs from existing trees as soon as you spot them. Dispose of the debris far away from the trees to avoid re-contamination of any diseases.",
+        rating: 5,
+        imageURL: "https://www.gardeningknowhow.com/wp-content/uploads/2013/09/almonds-1024x768.jpg",
+});
+
+
+db.ItemData.insert({
+   itemCode: 4,
+        itemName: "Organic Weed Pest and Disease Control",
+        catalogCategory: "Organic Gardening",
+        description: "The primary weed control strategies for organic systems are cultural and mechanical, focusing on prevention, crop rotation, crop competition, and cultivation.To plan an effective weed management program in organic systems, you should consider historical pest problems, soil management, crop rotation, machinery, markets, weather, and time and labor. Adjusting weed control strategies based on these factors and observing and avoiding potential threats will help you stay ahead of weed problems. Pauline suggests incorporating the following for the weed and pest control - Understand weed biology, Rotate crops and alter planting dates to disrupt weed life cycles, Encourage competitive crop production with sound agronomic practices, Use mulches and cover crops to help suppress weeds, Timely tillage and cultivation is critical for weed control and Chemical weed control is generally not allowed in organic production systems ",
+        rating: 2,
+        imageURL: "https://www.planetnatural.com/wp-content/uploads/2014/01/rotating-crops.jpg",
+});
+db.ItemData.insert({
+          itemCode: 5,
+        itemName: "Salad",
+        catalogCategory: "Organic Recipies",
+        description: "Pauline’s everyday breakfast is a bowl of fresh salad made out of fruits and veggies of her garden . The following is Pauline’s organic Salad recipe -  In a clean bowl mix 4 cups baby or full-grown kale (stalks removed & coarsely chopped),  14 oz can black beans, drained and rinsed, 1 cup corn, fresh or frozen (thawed), 2 large bell peppers, diced, 1 + 1/2 large avocado, diced , 1 large tomato, chopped , 1/2 cup red onion, finely chopped , 1/2 cup cilantro, finely chopped and 1 tbsp jalapeño peppers, seeded & minced. What good is a salad without a dressing. The best dressing for this salad would be , 1/2 large avocado 1/2 cup warm water , 1/2 lime  juice , 1 tsp cumin , 3/4 tsp salt and 1/2 tsp black pepper. There you go ! All healthy.",
+        rating: 4,
+        imageURL: "https://www.acouplecooks.com/wp-content/uploads/2020/06/Celery-Salad-017.jpg",
+});
+
+db.ItemData.insert({
+           itemCode: 6,
+        itemName: "Breakfast",
+        catalogCategory: "Organic Recipies",
+        description: "Pauline is a health conscious person who makes sure she has the best and the healthiest food diet. To all the health conscious people , you are at the right place ! The following is a list of organic breakfast recipes that she prepares -  Organic Toast, Turkey and Pineapple Sandwich , Organic Grilled & Stuffed Portobello Mushroom, Organic Peanut Butter and Jelly Pancakes, Organic Egg Breakfast Burrito , Organic Green Smoothie, Organic Strawberry, Flaxseed and Banana Smoothie , Organic Vanilla Yogurt & Fruit Goodness, Organic Almond Yogurt with Fresh Blueberries and Flaxseed,  Wild Salmon With Micro Greens and Poached Eggs and Organic & Vegan Banana Almond Bread. For more information on these drop a mail to us. Our contact information can be viewed in the contact page.",
+        rating: 3,
+        imageURL: "https://www.spoonforkbacon.com/wp-content/uploads/2020/07/easy-baked-eggs.jpg",
+});
+
+db.ItemData.insert({
+  itemCode: 7,
+        itemName: "Cheese Making",
+        catalogCategory: "Organic Recipies",
+        description: "Organic Cheese-making is one of the specialities of Paulin’s Organic Recipes. Who doesn’t like cheese ! So why not eat healthy and delicious home-made cheese. The following are the steps on how Pauline prepares her cheese -Mix milk with cream and slowly pasteurized in a vat ,  cool the milk and add cultures and mold, Add Rennet, an enzyme that encourages the proteins in the milk to come together , this step is called coagulation. The mixture will form a curd within 40 minutes and will become firm like yogurt . Cut the curd into 3/4 inch cubes and allowed to rest for a few minutes which allows a thin skin to form around the curd cubes.  Scoop the curd into cheese forms where it drains for 30 minutes before being turned and placed back in the cheese forms where it drains overnight. In the morning, place the cheese into a very salty brine for 2 hours. The brine brings flavor into the cheese and the salt also helps to create a protective skin on the cheese. Racks of cheese rest overnight in a cool room and then go into the aging room for 2-3 weeks where they are turned at least six times before being wrapped. ",
+        rating: 4,
+        imageURL: "https://cdn.shopify.com/s/files/1/1281/5521/products/Queso_Blanco_Websize.jpg?v=1476720946",
+});
+
+db.ItemData.insert({
+    itemCode: 8,
+        itemName: "Soup",
+        catalogCategory: "Organic Recipies",
+        description: "Soups are one of the most delicious and healthy foods especially when you are sick. Soups made with Organic veggies are more richer in nutrition and makes you feel fresh!. Lentil Soup is one of the most famous recipes of Paulines. Its the most simplest dish which anyone can prepare in less time. In a large pot combine all ingredients bring to boil. Reduce heat,cover. Simmer for about 1 hour or until lentils are tender. Add water if necessary, for desired consistency. I like to puree about 1 cup of the soup and add back to pot to give it a thicker consistency. Sprinkle with Organic cheese and serve. There you go!",
+        rating: 3,
+        imageURL: "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1074500_11-4325965.jpg?webp=true&quality=90&resize=500%2C454",
+});
+
+//Insert User Data
+db.UserData.insert({
+    userId: 11,
+    firstName: "Niveditha",
+    lastName: "Gopalkrishna",
+    email: "Ngopalk1@uncc.edu",
+    password: "12345678",
+    addr1: "9539E",
+    addr2: "University Terrace Dr.",
+    city: "Charlotte",
+    state: "NC",
+    zipCode: 28262,
+    country: "USA",
+	user_item: [
+      {
+        itemName:"Organic Herb Gardening",
+        itemCode:1,
+        rating:3,
+        catalogCategory: "Organic Gardening",
+        madeIt: true
+      },
+	  {
+        itemName:"Cheese Making",
+        itemCode:7,
+        rating:5,
+        catalogCategory: "Organic Recipies",
+        madeIt: false
+      }
+	  ]
+ });
+
+db.UserData.insert({
+    userId: 12,
+    firstName: "Shriram",
+    lastName: "Holla",
+    email: "shriramholla@gmail.com",
+    password: "12345678",
+    addr1: "898 Nikunj",
+    addr2: "Sahakarnagar",
+    city: "Bangalore",
+    state: "Karnataka",
+    zipCode: 560003,
+    country: "India",
+	user_item:[]
+});
