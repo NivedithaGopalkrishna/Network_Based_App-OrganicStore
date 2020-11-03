@@ -2,18 +2,18 @@
 
 This is web application that allows users to save and share Organic food recipes. The application was developed using Node.js and users progress was stored on backend using MongoDB.
 
-You will require Node.js and MongoDB installed in order to this this application. 
+You will require Node.js and MongoDB installed in order to run this application. 
 To install Node.js - https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 To install mongodB - https://docs.mongodb.com/manual/installation/
 To install mongoose - https://www.npmjs.com/package/mongoose
 
 
-To run the application go to your project directory and do the following:
+To run the application go to the project directory and do the following:
 
-1. Run the MongoDB server
+1. Run MongoDB server
      - open Terminal/Command prompt -> mongod
      
-2. Add the data into the Database(make sure the above is running)
+2. Add data into Database(make sure the above is running)
     - open Terminal -> mongo
     - run all the commands in 'create_db.txt'
     
